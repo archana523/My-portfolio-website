@@ -1,0 +1,112 @@
+.heading{
+    background-color: black;
+    color:white;
+    display:flex;
+    width: 100%;
+    height:auto;
+    justify-content:space-between;
+    border-radius: 2vw;
+}
+.heading h1{
+    padding-left: 1.5vw;
+    color: white;
+    font-size: 3vw;
+}
+.heading ul li{
+   text-decoration: none;
+   display:inline-flex;
+   font-size: 2vw;
+   padding-right: 1vw;
+   padding-top: 1vw;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:teal;
+}
+.main-container{
+    display:flex;
+    width:100%;
+    height:auto;
+    flex-direction:column;
+}
+.midsection{
+    display: flex;
+    width:100%;
+    height: auto;
+    flex-direction: row;
+   
+}
+.aboutme{
+   margin-top: 3vw;
+   margin-left: 1vw;
+   margin-right: 6vw;
+   font-size: 2vw;
+}
+.mypic{
+    margin-top: 3vw; 
+    margin-right: 3vw; 
+}
+img{
+    height:25vw;
+    width: 25vw;
+}
+.project{
+    display: inline-flex;
+    width: 100%;
+    justify-content:space-around;
+    background-color: chocolate;   
+}
+.a{
+    margin-top: 3vw;
+}
+.b{
+    margin-top: 3vw;
+}
+.c{
+    margin-top: 3vw;
+}
+.a p{
+    text-align: center;
+}
+.b p{
+    text-align: center;
+}
+.c p{
+    text-align: center;
+}
+.skills ul{
+    display: inline-flex;
+}
+.skills ul li{
+    padding-right: 3vw;
+}
+@media only screen and (max-width:768px){
+   .heading{
+       width:100%;
+   }  
+   .project{
+       width:100%;
+   }
+   .midsection{
+       width: 100%;
+   }
+   .main-container{
+       width:100%;
+   }
+@media only screen and (max-width:450px){
+    .main-container{
+        flex-direction: column;
+    }
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c{
+        margin-left: 14vw;
+    }
+}
+}
